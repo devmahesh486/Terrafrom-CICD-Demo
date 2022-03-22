@@ -1,5 +1,5 @@
-resource "aws_security_group" "demo-sg" {
-  name        = "demo-sg"
+resource "aws_security_group" "demo-rspl" {
+  name        = "demo-rspl"
   description = "allow ssh and http traffic"
   vpc_id     = aws_vpc.demo-rspl.id
 
